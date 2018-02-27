@@ -1,0 +1,30 @@
+.changeSource {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.changeSource div {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.container div {
+  border: 2px solid red;
+  width: 40%;
+}
+
+.item-btn {
+	cursor: pointer;
+	border: solid #becece 2px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: center;
+  width: 40px;
+}

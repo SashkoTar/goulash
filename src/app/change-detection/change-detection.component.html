@@ -1,0 +1,13 @@
+<p>
+  Привет! Тут мы будем исследовать выявление изменений
+</p>
+<div class="changeSource">
+  <div>First Name: <input type="text" [(ngModel)]='firstName'/></div>
+  <div>Last Name: <input type="text" [(ngModel)]='lastName'/></div>
+  <div class="item-btn" (click)='update()'>Update</div>
+  <div class="item-btn" (click)='updateOnPush()'>Update onPush</div>
+</div>
+<div class="container">
+  <default-detection [person]="person"></default-detection>
+  <onpush-detection [person]="person"></onpush-detection>
+</div>
